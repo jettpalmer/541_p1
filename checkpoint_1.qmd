@@ -4,23 +4,24 @@ format: html
 editor: visual
 ---
 
-## Quarto
+## Context
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+The Democracy and Dictatorship data were part of a TidyTuesday release on November 5th, 2024. TidyTuesday is a community-driven initiative that posts free, weekly datasets online for statisticians and data scientists to practice their data analysis skills. This release updates the data provided in "Regime types and regime change: A new dataset on democracy, coups, and political institutions" by Christian Bjørnskov and Martin Rode ([2020](https://link.springer.com/article/10.1007/s11558-019-09345-1)), and started by Cheibub et al. (2010) and Alvarex et al. (1996). The dataset was then curated and posted on [GitHub](https://github.com/rfordatascience/tidytuesday/blob/main/data/2024/2024-11-05/readme.md) by Jon Harmon. Bjørnskov and Rode aimed to fill a gap in existing data on political regimes by adding additional countries, institutional details, and an indicator of successful and failed coup d'états. These data, among other things, may help us learn about the value of democracy by revealing the frequency and conditions under which a country adopts a non-democratic system and how long that intervention lasts.
 
-## Running Code
+## Cleaning
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+## Research Questions
 
-```{r}
-1 + 1
-```
+### With Existing Data
 
-You can add options to executable code like this
+### With Supplemental Data
 
-```{r}
-#| echo: false
-2 * 2
-```
+## Possible Visualizations
 
-The `echo: false` option disables the printing of code (only output is displayed).
+## Notes
+
+-   A small subset of countries are responsible for a large subset of the total attempted coup d'états (e.g., Thailand, Sahel region of Africa \[containing Sudan, Ghana, Sierra Leone, et al.\])
+
+-   Coups are more prevalent in cities that have a single concentration of power (i.e., less separation of power).
+
+-   The two dimensions that seem strongly associated with coups are political engagement (primary) and political satisfaction (secondary). Low politically-engaged countries are most susceptible to coup d'états.
