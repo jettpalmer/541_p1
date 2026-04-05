@@ -1,5 +1,6 @@
 ---
 title: "Checkpoint 1"
+author: "Jett Palmer"
 format: html
 editor: visual
 ---
@@ -142,7 +143,7 @@ The repository by Jon Harmon includes pre-specified data cleaning steps which ex
 By importing GDP and coup d'états data, we might consider the following research questions.
 
 1.  How is the wealth and prosperity of a country related to it's political regime and instability?
-2.  What global or continental regions reflect the highest frequency of coup d'états and how long did these regimes remain in power?
+2.  How do the presence of democratic principles (e.g., full suffrage) reflect the risk of coup d'états?
 
 ## Possible Visualizations
 
