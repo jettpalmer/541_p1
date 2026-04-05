@@ -6,9 +6,9 @@ editor: visual
 
 ## Context
 
-The Democracy and Dictatorship data were part of a TidyTuesday release on November 5th, 2024. TidyTuesday is a community-driven initiative that posts free, weekly datasets online for statisticians and data scientists to practice their data analysis skills. This release updates the data provided in "Regime types and regime change: A new dataset on democracy, coups, and political institutions" by Christian Bjørnskov and Martin Rode ([2020](https://link.springer.com/article/10.1007/s11558-019-09345-1)), with content borrowed from Cheibub et al. (2010) and Alvarex et al. (1996). Bjørnskov and Rode's paper was published in *The Review of International Organizations*, contributing to knowledge in academia and political science. The dataset was then curated and posted on [GitHub](https://github.com/rfordatascience/tidytuesday/blob/main/data/2024/2024-11-05/readme.md) by Jon Harmon.
+The Democracy and Dictatorship (DD) data were part of a TidyTuesday release on November 5th, 2024. TidyTuesday is a community-driven initiative that posts free, weekly datasets online for statisticians and data scientists to practice their data analysis skills. This release updates the data provided in "Regime types and regime change: A new dataset on democracy, coups, and political institutions" by Christian Bjørnskov and Martin Rode ([2020](https://link.springer.com/article/10.1007/s11558-019-09345-1)), with content borrowed from Cheibub et al. (2010) and Alvarex et al. (1996). Bjørnskov and Rode's paper was published in *The Review of International Organizations*, contributing to knowledge in academia and political science. The dataset, which focuses mainly on the presence or absence of democracy (or democratic principals), was then curated and posted on [GitHub](https://github.com/rfordatascience/tidytuesday/blob/main/data/2024/2024-11-05/readme.md) by Jon Harmon.
 
-Bjørnskov and Rode aimed to fill a gap in existing data on political regimes by adding additional countries, institutional details, and, importantly, an indicator of successful and failed coup d'états. They did this by selecting definitional criteria for coups and coding each observation accordingly. Specifically, "coups and coup attempts therefore have to fulfil the following definition to count as such in \[the\] dataset: First, the objective must be to overthrow the executive branch. Second, actors have to be previously linked to the state apparatus in some way. Third, a coup or coup attempt cannot last longer than a week at most." These data, among other things, can help us learn about the value of democracy by revealing the frequency and conditions under which a country adopts a non-democratic system and how long that intervention lasts.
+In their paper, Bjørnskov and Rode aimed to fill a gap in existing data on political regimes by adding additional countries, institutional details, and, importantly, an indicator of successful and failed coup d'états. They did this by selecting definitional criteria for coups and coding each observation accordingly. Specifically, "coups and coup attempts therefore have to \[fulfill\] the following definition to count as such in \[the\] dataset: First, the objective must be to overthrow the executive branch. Second, actors have to be previously linked to the state apparatus in some way. Third, a coup or coup attempt cannot last longer than a week at most." These data, among other things, can help us learn about the value of democracy by revealing the frequency and conditions under which a country adopts a non-democratic system and how long that intervention lasts. As stated, the DD data are more minimalistic, focusing on the presence or absence of democracy, and supplementing these data with Bjørnskov and Rode's coup data may prove insightful.
 
 ## Cleaning
 
@@ -134,7 +134,15 @@ The repository by Jon Harmon includes pre-specified data cleaning steps which ex
 
 ### With Existing Data
 
+1.  What global or continental regions are most democratic?
+2.  How does the presence or absence of democratic regimes change over time?
+
 ### With Supplemental Data
+
+By importing GDP and coup d'états data, we might consider the following research questions.
+
+1.  How is the wealth and prosperity of a country related to it's political regime and instability?
+2.  What global or continental regions reflect the highest frequency of coup d'états and how long did these regimes remain in power?
 
 ## Possible Visualizations
 
