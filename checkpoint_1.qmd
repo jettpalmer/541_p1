@@ -146,10 +146,6 @@ By importing GDP and coup d'états data, we might consider the following researc
 
 ## Possible Visualizations
 
-## Notes
+![](images/clipboard-27102202.jpeg)
 
--   A small subset of countries are responsible for a large subset of the total attempted coup d'états (e.g., Thailand, Sahel region of Africa \[containing Sudan, Ghana, Sierra Leone, et al.\])
-
--   Coups are more prevalent in cities that have a single concentration of power (i.e., less separation of power).
-
--   The two dimensions that seem strongly associated with coups are political engagement (primary) and political satisfaction (secondary). Low politically-engaged countries are most susceptible to coup d'états.
+![](images/clipboard-742389028.jpeg)
