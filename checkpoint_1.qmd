@@ -1,7 +1,9 @@
 ---
 title: "Checkpoint 1"
 author: "Jett Palmer"
-format: html
+format:
+  html:
+    embed-resources: true
 editor: visual
 ---
 
